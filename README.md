@@ -1,30 +1,24 @@
 # Data-Analysis-Project
 
 Welcome,
-This is my project in analyzing customer behaviour from an Ecommerce dataset. 
-I hope that this project may help me in ultilizing skills in Python programming, statistics and extracting valueable insights from a dataset.
+This is my project as a Data Analyst. 
 
 <h2>
   About the Dataset
 </h2>
-<br>This dataset can be found on Kaggle via this link: https://www.kaggle.com/datasets/shriyashjagtap/e-commerce-customer-for-behavior-analysis<br><br>
-I also upload a copy version for backup.<br><br>
-The "E-commerce Customer Behavior and Purchase Dataset" is a synthetic dataset generated using the Faker Python library. It simulates a comprehensive e-commerce environment, capturing various aspects of customer behavior and purchase history within a digital marketplace. This dataset has been designed for data analysis and predictive modeling in the field of e-commerce. It is suitable for tasks such as customer churn prediction, market basket analysis, recommendation systems, and trend analysis.<br><br>
+<br> For the sake of practicing, I download a dataset on Kaggle and build my own Business Context based on this data set and then solve the problem.<br><br>
+The dataset belongs to an online retail (ecommerce) company seeks to identify which customers are likely to churn. It consists of customer information such as demographic, historical activities on company's platform,... and the target value 'Churn' which indicates whether a customer has churned or not.
+This dataset can be found on Kaggle via this link: https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction<br><br>
 
-<h3>
-  What's the plan
-</h3>
-So what's I'm gonna do with this dataset?<br><br>
-Well, at this very first step, I just came up with a plan like this:<br><br>
-  - Get general informations about this dataset: name of columns, dtypes of columns, value counting, handling missing values, drop useless columns,...<br><br>
-  - Formulate hypotheses, predictions regarding relationships between features and target, as well as potential trends and insights within the dataset.<br><br>
-  - Check hypothesis, predictions via visualizing and dig into features to find out valueable informations.<br><br>
-  - Make conclusion about insights found with strong evidence taken from dataset.<br><br>
-  - Build a simple dashboard using plotly.<br><br>
-  - Build a simple prediction model to predict customer churn.<br><br>
+<h2>
+Business Context
+<h2>
+Company X, an e-commerce company, is engaged in a fierce battle with its competitors as a significant number of its customers are switching to rival companies. This shift is affecting Company X's customer retention rates negatively. In response, the company's top-level management has instructed the data team to conduct an analysis of the factors influencing customer retention. The goal is to develop a machine learning model that can be seamlessly integrated into Company X's information system, with the aim of enhancing customer satisfaction and securing victory in this competitive battle.<br>
 
-That's it, hope that I can achive as much of above as possible. I will update details and result of each step in the below. Let's do it!<br><br>
+<h2>
+Problem definition
+<h2>
+The problem is finding what factor is mainly causing the increase in number of customer churn, then develop classification machine learning models to predict which customer would churn and it's probabilities (Logistics Regression Model). <br><br>
 
-<h3>
-  1. Step 1: Begin by examining the dataset
-</h3>
+
+Let's go! Please see my analysis in Analysis-Notebook.ipynb, this file contains my work in finding insights and develop models in predicting customer churn
